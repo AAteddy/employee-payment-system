@@ -27,6 +27,13 @@ public abstract class Employee {
         address = newAddress;
     }
 
+    public String getDepartment() {
+        return department;
+    }
+    public void setDepartment(String newDepartment) {
+        department = newDepartment;
+    }
+
     public void setSalary(double newSalary) {
         if(newSalary > 1.0)
             salary = newSalary;
